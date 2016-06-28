@@ -1,13 +1,10 @@
 {
-  "name": "foundation-sites-template",
-  "version": "1.0.0",
-  "authors": [
-    "ZURB <foundation@zurb.com>"
-  ],
-  "description": "Basic template for a new Foundation for Sites project.",
+  "name": "gitplaylist-brand",
+  "version": "0.0.1",
+  "description": "The Style guide and styling resources necessary for gitplaylist.",
   "main": "index.html",
   "license": "MIT",
-  "homepage": "http://foundation.zurb.com",
+  "homepage": "http://www.gitplaylist.com",
   "dependencies": {
     "foundation-sites": "~6.1.2",
     "motion-ui": "~1.1.0",
@@ -17,9 +14,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "private": true
 }

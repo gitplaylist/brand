@@ -1,7 +1,7 @@
 {
-  "name": "foundation-sites-template",
-  "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "name": "gitplaylist-brand",
+  "version": "0.0.1",
+  "description": "The Style guide and styling resources necessary for gitplaylist.",
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.9.0",
@@ -21,7 +21,6 @@
     "url": "https://github.com/zurb/foundation-sites/issues",
     "email": "foundation@zurb.com"
   },
-  "author": "ZURB <foundation@zurb.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {
