@@ -1,5 +1,8 @@
 # GitPlaylist Branding
 
+[![Dependency Status](https://david-dm.org/gitplaylist/brand.svg?branch=master)](https://david-dm.org/gitplaylist/brand?branch=master)
+
+
 This is the branding resources for GitPlaylist
 
 ## Installation
