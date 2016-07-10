@@ -4,6 +4,7 @@
   "description": "The Style guide and styling resources necessary for gitplaylist.",
   "main": "gulpfile.js",
   "devDependencies": {
+    "bower": "^1.7.9",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-load-plugins": "^1.1.0",
@@ -11,7 +12,7 @@
   },
   "scripts": {
     "start": "gulp",
-    "build": "gulp sass"
+    "build": "gulp bower && gulp sass && gulp js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "gulp-autoprefixer": "^3.1.0"
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.7.1"
   }
 }
