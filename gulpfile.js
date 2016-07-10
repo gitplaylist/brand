@@ -27,7 +27,7 @@ gulp.task('sass', function() {
     .pipe($.autoprefixer({
       browsers: ['last 2 versions', 'ie >= 9']
     }))
-    .pipe($.rename({basename: 'brand.css'}))
+    .pipe($.rename({basename: 'brand'}))
     .pipe(gulp.dest('dist'));
 });
 
