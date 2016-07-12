@@ -37,17 +37,7 @@ $topbar-unstack-breakpoint: medium !default;
 
 /// Adds styles for a top bar container.
 @mixin top-bar-container {
-  @if $global-flexbox {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
-  @else {
-    @include clearfix;
-  }
-
-  padding: $topbar-padding;
+  padding: $topbar-padding 0;
 
   &,
   ul {
